@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
-import NasaCard from "./NasaCard";
 import Axios from "axios";
+import NasaCard from "./NasaCard";
+
+
 
 export default function NasaData() {
 
@@ -28,7 +30,7 @@ export default function NasaData() {
         title={pictures.title}
         explanation={pictures.explanation}
         image={pictures.hdurl}
-        
+        date={pictures.date}
         
         />
 
