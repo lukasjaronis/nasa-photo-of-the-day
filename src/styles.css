@@ -24,6 +24,10 @@ body {
     line-height: 30px;
 }
 
+.nasa-card span {
+    color: midnightblue;
+}
+
 .nasa-image {
     height: 500px;
     width: 500px;
