@@ -1,0 +1,12 @@
+body {
+    background: rgba(0,139,139,0.5);
+}
+
+.nasa-card {
+    border: 1px solid black;
+}
+
+.nasa-image {
+    height: 500px;
+    width: 500px;
+}
