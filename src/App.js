@@ -1,13 +1,12 @@
 import React from "react";
 import NasaData from "./components/NasaData";
-import "./App.css";
-import "./styles.css";
+import { AppStyles } from "./components/styles/styles";
 
 function App() {
   return (
-    <div className="App">
+    <AppStyles>
     <NasaData />
-    </div>
+    </AppStyles>
   );
 }
 
