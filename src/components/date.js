@@ -1,4 +1,4 @@
-export default function formateDate(date) {
+export default function formatDate(date) {
     const monthNames = 
     [
         "January",
@@ -15,9 +15,9 @@ export default function formateDate(date) {
         "December"
     ];
 
-    var day = new Date(date).getDate();
-    var monthIndex = new Date(date).getMonth();
-    var year = new Date(date).getFullYear();
+    var day = new Date().getDate(date);
+    var monthIndex = new Date().getMonth(date);
+    var year = new Date().getFullYear(date);
 
     return `${day} ${monthNames[monthIndex]} ${year}`;
 

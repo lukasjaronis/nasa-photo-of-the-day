@@ -1,10 +1,10 @@
 import React from "react";
 import { NasaCardStyle, Button } from "./styles/styles.js";
-import formateDate from "./date";
+import formatDate from "./date";
 
 
 const NasaCard = props => {
-     
+     console.log(props);
     return (
         <NasaCardStyle>
         <h1>{props.title}</h1>
@@ -14,7 +14,7 @@ const NasaCard = props => {
         <Button primary >Previous</Button>
         <Button>Next</Button>
         </div>
-        <span>{formateDate(props.date)}</span>
+        <span>{formatDate(props.date)}</span>
         </NasaCardStyle>
       
     )
