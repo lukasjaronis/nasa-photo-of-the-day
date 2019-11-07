@@ -38,5 +38,11 @@ export default function NasaData() {
         date={pictures.date}
         />
         </div>
+
+    
     );
+
+
+      
+
     }
