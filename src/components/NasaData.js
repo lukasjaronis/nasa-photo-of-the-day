@@ -13,7 +13,7 @@ export default function NasaData() {
     useEffect(() => {
 
         Axios
-        .get("https://api.nasa.gov/planetary/apod?api_key=81uPCTsZx5S8RPdsRyp15jmrdXXtdfz8fjfC3lfU")
+        .get("https://api.nasa.gov/planetary/apod?api_key=81uPCTsZx5S8RPdsRyp15jmrdXXtdfz8fjfC3lfU") // 81uPCTsZx5S8RPdsRyp15jmrdXXtdfz8fjfC3lfU
         .then(response => {
             setPicture(response.data);
         

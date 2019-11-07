@@ -8,7 +8,7 @@ import styled from "styled-components";
       align-items: center;
       width: 90%;
       height: 90%;
-      margin: 3rem auto;
+      margin: 1rem auto;
     `;
     
     
@@ -43,7 +43,24 @@ import styled from "styled-components";
             width: 500px;
              border-radius: 25px;
         }
+
+      .buttonContainer {
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          display: flex;
+      }
     `;
 
 
-
+      export const Button = styled.button`
+      background: ${props => (props.primary ? "#FFA500" : "#fff")}; /*  new color / default   */
+            color: ${props => (props.primary ? "#000" : "#000")};
+            height: 35px;
+            width: 100px;
+            border-radius: 15px;
+            border: 1px solid black;
+            margin: 10px;
+            letter-spacing: 1px;
+            font-size: 1rem;    
+            font-weight: ${props => (props.primary ? 900 : 100)};;
+      `;
